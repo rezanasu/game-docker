@@ -1,0 +1,39 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "docker-homework",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "docker-homework-test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "docker": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "docker-homework",
+    "host": "postgres",
+    "dialect": "postgres",
+    "port": 5439
+  },
+  "docker-test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "docker-homework-test",
+    "host": "postgres",
+    "dialect": "postgres",
+    "port": 5439
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
